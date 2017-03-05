@@ -4,7 +4,7 @@ maintainer_email 'jesse@boldandbusted.com'
 license 'gplv3'
 description 'Installs/Configures simple_ip_service'
 long_description 'Installs/Configures simple_ip_service'
-version '0.1.0'
+version '0.1.1'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
@@ -17,3 +17,8 @@ version '0.1.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/simple_ip_service' if respond_to?(:source_url)
+#
+
+depends "chef_nginx"
+depends "yum"
+depends "poise-service"
