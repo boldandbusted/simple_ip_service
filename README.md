@@ -24,7 +24,7 @@ For now, you have to log into the guest via 'kitchen login' to find out its IP.
 
 Usage:
 ```shell
-$ curl -s http://<the Vagrant host-only IP/
+$ curl -s http://<the Vagrant host-only IP>/
 ```
 
 TODO: 
