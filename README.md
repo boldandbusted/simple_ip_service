@@ -22,16 +22,16 @@ Basic setup:
 
 For now, you have to log into the guest via 'kitchen login' to find out its IP.
 
-Usage:
+**Usage:**
 ```shell
 $ curl -s http://<the Vagrant host-only IP>/
 ```
 
-TODO: 
+**TODO:**
   * EC2 Testing
   * SSL/Let's Encrypt (via certbot)
 
-Ideas for Improvements:
+**Ideas for Improvements:**
   * Containerize
   * Terraform
   * DNS via cli53
