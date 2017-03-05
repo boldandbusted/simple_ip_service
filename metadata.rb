@@ -1,5 +1,5 @@
 name 'simple_ip_service'
-maintainer 'The Authors'
+maintainer 'Jesse Adelman'
 maintainer_email 'jesse@boldandbusted.com'
 license 'gplv3'
 description 'Installs/Configures simple_ip_service'
